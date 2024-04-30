@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 25%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.gym-imagem{
+    width: 30%;
+    margin: 40px;
+}
+
+.gym{
+    background-image: linear-gradient(#000000,#414141);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 24px 0;
+}
+
+.gym-div-conteudo{
+    width: 35%;
+}
+
+
+.gym-titulo{
+    padding: 24px 0;
+}
+
+.aparelhos-imagem{
+    width: 25%;
+    margin: 40px;
+}
+
+.aparelhos{
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 24px 0;
+}
+
+.aparelhos-div-conteudo{
+    width: 35%;
+}
+
+
+.aparelhos-titulo{
+    padding: 24px 0;
+}
+
+.rodape{
+    background-color: #414141;
+    text-align: center;
+    color: white;
+}
+
+.rodape-imagem{
+    width: 10%;
+    padding: 12px 0;
+}
